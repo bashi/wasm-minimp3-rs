@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+#mp3-url {
+  min-width: 200px;
+}
+
+.sub-message {
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#control-pane {
+  margin-top: 16px;
+}
+
+.control-button {
+  font-size: 4rem;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 32px;
+  font-size: 0.9rem;
+}

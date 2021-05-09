@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>ToyMP3 Player</title>
+</head>
+
+<body>
+  <script src="main.js"></script>
+  <div id="app">
+    <div>
+      <input id="mp3-url" type="text" value="data/sine440hz10s.mp3">
+      <button id="play-url-button">Play URL</button>
+    </div>
+    <div class="sub-message">
+      <div>
+        or
+      </div>
+      Drag & Drap a MP3 file!
+    </div>
+    <div id="control-pane">
+      <button class="control-button material-icons" id="toggle-play-button" disabled>
+        play_circle_outline
+      </button>
+    </div>
+    <footer>
+      <a href="https://github.com/bashi/wasm-minimp3-rs">View Source</a>
+    </footer>
+  </div>
+</body>
+
+</html>
